@@ -1,0 +1,22 @@
+@import '~src/_base.scss';
+
+.wrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.padsWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  float: left;
+  height: 100%;
+  max-height: 300px;
+  padding: 0 40px 40px 40px;
+  position: relative;
+  width: 100%;
+
+  @media(min-width: $breakpoint-medium) {
+    max-height: 450px;
+  }
+}

@@ -1,0 +1,19 @@
+@import '~src/_base.scss';
+
+.wrapper {
+  background-color: $light-grey;
+  height: calc(100% + 120px);
+  left: 0;
+  margin-top: -60px;
+  padding: 65px 40px 40px 40px;
+  position: absolute;
+  top: 0;
+  display: none;
+  width: 100%;
+  z-index: 700;
+}
+
+.wrapperShowing {
+  composes: wrapper;
+  display: block;
+}

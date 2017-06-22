@@ -1,0 +1,12 @@
+CACHE MANIFEST
+#ver:6/5/2017, 4:52:57 PM
+#plugin:4.8.1
+
+CACHE:
+../assets/javascripts/build/app.build.js
+../assets/styles/build/app.build.css
+../
+../assets/styles/app.css
+
+NETWORK:
+*

@@ -1,0 +1,39 @@
+@import '~src/_base.scss';
+
+.wrapper {
+  float: left;
+  flex-basis: 7.14%;
+  height: 100%;
+  max-width: 7.14%;
+  position: relative;
+  width: 100%;
+}
+
+.wrapperSharp {
+  composes: wrapper;
+  height: 60%;
+  margin: 0 -3.57142857143%;
+  padding: 0 2px;
+  z-index: 400;
+
+  .hitArea {
+    background-color: $dark-grey;
+    border: 1px solid $off-white;
+    border-top: 1px solid $dark-grey;
+  }
+}
+
+.hitArea {
+  background-color: $off-white;
+  border: 1px solid $dark-grey;
+  cursor: pointer;
+  height: 100%;
+  border-radius: 0 0 4px 4px;
+  position: relative;
+  transition: background-color .2s ease-out;
+  width: 100%;
+}
+
+.active {
+  background-color: $medium-grey !important;
+}

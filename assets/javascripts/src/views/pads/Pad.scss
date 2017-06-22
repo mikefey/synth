@@ -1,0 +1,26 @@
+@import '~src/_base.scss';
+
+.wrapper {
+  float: left;
+  flex-basis: 25%;
+  height: 33.3333%;
+  max-width: 25%;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.hitArea {
+  background-color: $dark-grey;
+  border: 1px solid $off-white;
+  cursor: pointer;
+  height: 100%;
+  border-radius: 4px;
+  position: relative;
+  transition: background-color .2s ease-out;
+  width: 100%;
+}
+
+.active {
+  background-color: $medium-grey;
+}

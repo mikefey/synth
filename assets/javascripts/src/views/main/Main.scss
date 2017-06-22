@@ -1,0 +1,27 @@
+@import '~src/_base.scss';
+
+.wrapper {
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  height: 70vh;
+  left: 50%;
+  max-width: $max-content-width;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, calc(-50% + 45px));
+  width: 100%;
+}
+
+.uiButtons {
+  height: 40px;
+  margin-top: -50px;
+  position: absolute;
+  right: 45px;
+}

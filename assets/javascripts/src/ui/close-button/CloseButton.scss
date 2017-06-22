@@ -1,0 +1,27 @@
+@import '~src/_base.scss';
+
+.wrapper {
+  cursor: pointer;
+  height: 35px;
+  margin: -48px 0 0 5px;
+  position: absolute;
+  width: 35px;
+
+  &:hover {
+    svg {
+      path {
+        fill: $clay;
+      }
+    }
+  }
+
+  svg {
+    height: auto;
+    margin-left: 10%;
+    width: 80%;
+
+    path {
+      transition: fill .2s ease-out;
+    }
+  }
+}

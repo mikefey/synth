@@ -1,0 +1,29 @@
+html,
+body {
+  background-color: #ededed;
+  box-sizing: border-box;
+  font-family: 'NeueHaasUnicaPro-Regular',
+    Helvetica,
+    Arial,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  font-size: 10px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
