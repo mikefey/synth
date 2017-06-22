@@ -63,6 +63,7 @@ module.exports = {
       path.resolve('./assets/javascripts/src'),
       path.resolve('./assets/styles'),
       path.resolve('./assets/images'),
+      path.resolve('./assets/fonts'),
       path.resolve('./node_modules'),
     ],
   },
