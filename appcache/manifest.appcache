@@ -1,16 +1,16 @@
 CACHE MANIFEST
-#ver:6/21/2017, 10:21:42 PM
+#ver:6/22/2017, 11:02:59 PM
 #plugin:4.8.1
 
 CACHE:
-../assets/styles/build/a31e4152cdea9de1c4bc989b6ec15f8d.eot
-../assets/styles/build/be2336fb9f96624a6c4f30e6c8b5627a.eot
-../assets/styles/build/550fae06d60742f2173aa0aa7e25ab6d.ttf
-../assets/styles/build/fd776a5708f1d064cdacd9acfc25bed4.ttf
-../assets/styles/build/7d8fce02055cbfc5466b24e84a742fce.woff
-../assets/styles/build/e210532d7c41c11fa2f5dbaff87bff68.woff2
-../assets/styles/build/5597009b942913f6df349fb9ab43edf5.woff
-../assets/styles/build/4550afbda8dcb851941e8794f8f4a874.woff2
+../a31e4152cdea9de1c4bc989b6ec15f8d.eot
+../be2336fb9f96624a6c4f30e6c8b5627a.eot
+../550fae06d60742f2173aa0aa7e25ab6d.ttf
+../fd776a5708f1d064cdacd9acfc25bed4.ttf
+../7d8fce02055cbfc5466b24e84a742fce.woff
+../e210532d7c41c11fa2f5dbaff87bff68.woff2
+../5597009b942913f6df349fb9ab43edf5.woff
+../4550afbda8dcb851941e8794f8f4a874.woff2
 ../assets/javascripts/build/app.build.js
 ../assets/styles/build/app.build.css
 ../
