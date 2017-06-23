@@ -8,7 +8,7 @@
   "scripts": {
     "webpack-server": "NODE_ENV=development webpack-dev-server --host 0.0.0.0 --port 3000 --hot --progress --colors",
     "start": "npm run webpack-server",
-    "build": "NODE_ENV=production webpack -p --config webpack.production.config.js -d --display-reasons --display-chunks --progress",
+    "build": "NODE_ENV=production webpack --config webpack.production.config.js --display-reasons --display-chunks --progress",
     "test": "BABEL_DISABLE_CACHE=1 NODE_ENV=test ava"
   },
   "dependencies": {
